@@ -29,6 +29,9 @@ const tempProduct= fs.readFileSync(
 //it will accept a callback function that will be fired of each time a new request hits the server
 const server = http.createServer((req, res) => {
 //HERE IS ANOTHER WAY OF MAKING THE SERVER BY SPLITING IT.
+  //const server = const http = require('http').createServer();
+  //them the server.on .....
+        //OR
  // const server = http.createServer()
 //server.on('request' , (req, res) => {
   // what run on the server
