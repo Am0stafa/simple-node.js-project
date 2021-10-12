@@ -33,6 +33,10 @@ const server = http.createServer((req, res) => {
 //server.on('request' , (req, res) => {
   // what run on the server
 //})
+  //if you want to run someting when the server stops
+  //server.on('close' , (req, res) => {
+  // what run when the server close
+//})
 
     //rounting
     //gets us the pathName which we can use for routing or use desturcturing like the below one
