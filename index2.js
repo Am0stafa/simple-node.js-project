@@ -28,6 +28,12 @@ const tempProduct= fs.readFileSync(
 
 //it will accept a callback function that will be fired of each time a new request hits the server
 const server = http.createServer((req, res) => {
+//HERE IS ANOTHER WAY OF MAKING THE SERVER BY SPLITING IT.
+ // const server = http.createServer()
+//server.on('request' , (req, res) => {
+  // what run on the server
+//})
+
     //rounting
     //gets us the pathName which we can use for routing or use desturcturing like the below one
 //  const pathName = req.url;
